@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700&family=Roboto:wght@100;300;400;500;700&display=swap');
+
+
+$primary-font-family: 'Roboto', sans-serif;
+$light-bg-color: #f6f6f6;
+$primary-color: #9356DC; 
+$secondary-color: #FF79DA;
+$tertiary-color: #99E2D0;
+$location-bg-color: #eaeaea;
+
+@import './_header';
+@import './_aboutUs';
+@import './steps';
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: $primary-font-family;
+}
+
+
+
+

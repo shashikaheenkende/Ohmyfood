@@ -1,0 +1,19 @@
+.header {
+  img {
+    width: 40%;
+    padding: 8px 0;
+    
+  }
+
+  .location {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    background-color: $location-bg-color;
+    padding: 15px 0;
+  }
+
+  i {
+    padding-right: 15px;
+  }
+}
